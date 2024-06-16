@@ -2,8 +2,8 @@
 
 #Operadores Aritiméticos
 '''
-Soma: +
-Subtração: -
+Soma: +                 (Para Variaveis String funciona como concatenar)
+Subtração: -            
 Multiplicação: *
 Divisão: /
 Divisão inteira: //     (Descarta aparte decimal da divisão)
@@ -48,3 +48,4 @@ print(Idade1, " <= ", Idade2, "?", Idade1 <= Idade2)
 print(Idade1, " != ", Idade2, "?", Idade1 != Idade2)
 print("Python == Python?", "Python" == "Python")
 print("Banana != Python?", "Banana" == "Python")
+print("Banana + Python?", "Banana" + "Python")
