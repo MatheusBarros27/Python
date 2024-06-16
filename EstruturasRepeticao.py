@@ -1,6 +1,8 @@
 #ESTRUTURAS DE REPETIÇÃO
 
 '''
+Não é necessario fechar o laço pois no PYTHON se utiliza a identação como referencia
+
 While [CONDIÇÃO]:       (Cuidado com laços infinitos)
     [codigo while]
 
@@ -32,7 +34,8 @@ while numero_escolhido != numero_sorteado:
 
 i=1
 for i in range(10):
-    print(i, "-","PARABÉNS, VOCÊ ACERTOU!")
+    #f string para informar a variavel i dentro do print (Mais util para input, pois pelo print pode fazer print(i, "..."))
+    print(f"{i} - PARABÉNS, VOCÊ ACERTOU!")
     print("O número sorteado era o", numero_sorteado)
     print("")
 
