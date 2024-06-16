@@ -70,6 +70,7 @@ except ValueError as e:
 
 # Para calcular o determinante, precisamos de uma matriz quadrada
 MatrizQuadrada = np.array([[1, 2], [3, 4]])
+print("Matriz Quadrada: \n", MatrizQuadrada)
 
 # Determinante da matriz quadrada
 try:
@@ -77,3 +78,25 @@ try:
     print("\nDeterminante da matriz quadrada:\n", Determinante)
 except ValueError as e:
     print("\nErro ao calcular o determinante:", e)
+
+# Verificando se a matriz é quadrada
+if MatrizQuadrada.shape[0] == MatrizQuadrada.shape[1]:        #Verifica a qtd de colunas VS qtd de linhas
+    if Determinante == 0:
+        print("A matriz tem determinante = 0 (Matriz Singular). Não existe inversa.")
+    else:
+        print("Matriz é Quadrada e Não Singular. Calculando a inversa...")
+        # Calculando a inversa da matriz
+        MatrizInversa = np.linalg.inv(MatrizQuadrada)
+        print("Inversa da matriz:\n", MatrizInversa)
+else:
+    print("A matriz não é quadrada. Não existe inversa.")
+
+#Verificando se depois de calcular a inversa se eu multiplicar pela matriz original irá gera a Matriz identidade
+
+MatrizIdentidade = np.dot(MatrizQuadrada, MatrizInversa)
+print("Matriz Identidade:\n", MatrizIdentidade)
+
+#Gerando uma matriz identidate de ordem 8
+
+MatrizIdentidade8 = np.identity(8)
+print("Matriz Identidade Teste 8x8:\n", MatrizIdentidade8)
