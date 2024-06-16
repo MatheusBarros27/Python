@@ -20,4 +20,21 @@ Float - Numeros reais
 str - String (Texto)
 bool - Valores lógicos (TRUE e FALSE)
 
+OBS.:   Todos os Inputs feitos no PYTHON 
+        são lidos como String, portanto 
+        temos que realizar as conversões 
+        para trabalhar com os valores
+
+Comandos para Converter Variaveis
+int()           - Numeros inteiros
+float()         - Numeros reais
+str()           - String (Texto)
+bool()          - Valores lógicos (TRUE e FALSE)
+
 '''
+
+Nome2 = input('Digite seu Nome Completo:')
+print('Seu Nome completo é:', Nome2, type(Nome2))
+
+Nota = float(input('Digite sua Nota:'))
+print('Nota =', Nota, type(Nota))
