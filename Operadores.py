@@ -33,6 +33,9 @@ Maior ou Igual: >=
 Menor: <
 Menor ou Igual: <=
 Diferente: !=
+Negação: Not()
+E: and
+OU: or
 
 '''
 
