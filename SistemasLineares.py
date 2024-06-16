@@ -45,7 +45,7 @@ x = MatrizX[0]
 y = MatrizX[1]
 z = MatrizX[2]
 
-#Calculo para checar se esta Certo
+#Calculo para checar se esta Certo (PROVA REAL)
 print("\nCalculo para checar se esta Certo: \n")
 
 #Primeira Equação
@@ -65,6 +65,15 @@ print("Terceira Equação:")
 print("\n2x + 3y - 2z = 2")
 print(f"2.{x:.2f} + 3.{y:.2f} - 2.{z:.2f} = 2")
 print(2*x + 3*y - 2*z, " = 2 \n")                   
+
+#Resolvendo pela função solve
+
+X = np.linalg.solve(MatrizA, MatrizB)
+print(f"\nMatriz X (Metodo Solve) = {X}")
+print(f"Valor de x (Metodo Solve) = {X[0]:.2f}")
+print(f"Valor de y (Metodo Solve) = {X[1]:.2f}")
+print(f"Valor de z (Metodo Solve) = {X[2]:.2f}")
+
 
 #Comando para executar Clicando no arquivo
 input("Pressione Enter para fechar...")
