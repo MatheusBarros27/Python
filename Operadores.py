@@ -52,3 +52,7 @@ print(Idade1, " != ", Idade2, "?", Idade1 != Idade2)
 print("Python == Python?", "Python" == "Python")
 print("Banana != Python?", "Banana" == "Python")
 print("Banana + Python?", "Banana" + "Python")
+
+
+#Comando para executar Clicando no arquivo
+input("Pressione Enter para fechar...")

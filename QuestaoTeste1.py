@@ -43,3 +43,6 @@ print("e)")
 print(num > x*y, num <= x + y, num*y != x*y)
 print(False, True, True)
 
+
+#Comando para executar Clicando no arquivo
+input("Pressione Enter para fechar...")

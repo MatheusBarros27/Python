@@ -25,3 +25,7 @@ else:
   resposta = c % 2 == 0
 
 print("O maior número entre os três informados é par?", resposta)
+
+
+#Comando para executar Clicando no arquivo
+input("Pressione Enter para fechar...")

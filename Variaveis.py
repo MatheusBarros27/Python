@@ -38,3 +38,7 @@ print('Seu Nome completo é:', Nome2, type(Nome2))
 
 Nota = float(input('Digite sua Nota:'))
 print('Nota =', Nota, type(Nota))
+
+#Comando para executar Clicando no arquivo
+input("Pressione Enter para fechar...")
+
