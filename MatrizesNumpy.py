@@ -109,3 +109,6 @@ print("Matriz Quadrada 4x4 aleatória:\n", MatrizQuadrada4x4)
 #Calculando o determinante
 Determinante4x4 = np.linalg.det(MatrizQuadrada4x4)
 print("Determinante Matriz 4x4:\n", Determinante4x4)
+
+#Comando para executar Clicando no arquivo
+input("Pressione Enter para fechar...")

@@ -98,3 +98,6 @@ print("Maior elemento = ", max(ListaAppend))
 #min - Metodo que retorna o MENOR valor da lista
 
 print("Menor elemento = ", min(ListaAppend))
+
+#Comando para executar Clicando no arquivo
+input("Pressione Enter para fechar...")

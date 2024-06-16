@@ -27,3 +27,6 @@ for linha in Matriz:
 # Transpondo a matriz
 MatrizTransposta = list(zip(*Matriz))
 print(MatrizTransposta)
+
+#Comando para executar Clicando no arquivo
+input("Pressione Enter para fechar...")
