@@ -100,3 +100,12 @@ print("Matriz Identidade:\n", MatrizIdentidade)
 
 MatrizIdentidade8 = np.identity(8)
 print("Matriz Identidade Teste 8x8:\n", MatrizIdentidade8)
+
+#Gerando uma matriz quadrada 4x4 aleatória
+
+MatrizQuadrada4x4 = np.random.randint(0, 20, size=(4,4))
+print("Matriz Quadrada 4x4 aleatória:\n", MatrizQuadrada4x4)
+
+#Calculando o determinante
+Determinante4x4 = np.linalg.det(MatrizQuadrada4x4)
+print("Determinante Matriz 4x4:\n", Determinante4x4)
