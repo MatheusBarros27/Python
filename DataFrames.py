@@ -17,6 +17,11 @@ df = pd.DataFrame(dicionario)
 print("\nDataFrame inicial:")
 print(df)
 
+# Usando a função describe para ter uma visão geral dos dados
+desc = df.describe()
+print("\nDescrição do DataFrame:")
+print(desc)
+
 # Criando uma máscara para selecionar linhas com o autor 'Rick Riordan'.
 mask = df['Autores'] == "Rick Riordan"
 print("\nLinhas com 'Rick Riordan':")
